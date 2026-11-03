@@ -1,0 +1,13 @@
+{
+  "domain": "pzem_014_016",
+  "name": "PZEM-014/016",
+  "codeowners": ["@sambartle"],
+  "config_flow": true,
+  "connectivity": ["modbus"],
+  "dependencies": ["modbus", "usb"],
+  "documentation": "https://www.home-assistant.io/integrations/pzem_014_016",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["modbus_connection", "pzem_014_016_modbus", "tmodbus"],
+  "requirements": ["pzem-014-016-modbus==0.1.0"]
+}
